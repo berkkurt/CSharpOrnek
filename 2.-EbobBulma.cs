@@ -12,8 +12,10 @@ namespace EbobBulma
         {
             Console.WriteLine("İlk sayıyı giriniz: ");
             int sayi_1 = Convert.ToInt32(Console.ReadLine());
+            
             Console.WriteLine("İkinci sayıyı giriniz: ");
             int sayi_2 = Convert.ToInt32(Console.ReadLine());
+            
             int ebob = 1;
             int bolen = 2;
             while (sayi_1 > 1 || sayi_2 > 1)
