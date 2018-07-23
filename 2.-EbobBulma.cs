@@ -42,6 +42,7 @@ namespace EbobBulma
                 }
             }
             Console.WriteLine("Verilen sayıların ebob'u ; {0} ",ebob);
+          // Console.WriteLine("Verilen sayıların ebob'u ; "+ebob); üsttekiyle aynı işlevdedir.
             Console.ReadKey();
         }
     }
