@@ -14,8 +14,9 @@ namespace CarpimTablosu
 
             Console.WriteLine("Çarpım tablosu istenen sayıyı giriniz : ");
             int sayi = int.Parse(Console.ReadLine());
-            Console.WriteLine("\n----- " + sayi + " sayısının çarpım tablosu -----");
-            Console.WriteLine();
+            
+            Console.WriteLine("\n----- " + sayi + " sayısının çarpım tablosu -----\n");
+            
             for (int i = 1; i <= 10 ; i++)
                 Console.WriteLine(sayi + " x " + i + " = " + sayi * i);
 
