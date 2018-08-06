@@ -10,16 +10,17 @@ namespace EbobBulma
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ebob'u bulunacak ilk sayıyı giriniz: ");  
+            Console.WriteLine("Ebob'u bulunacak ilk sayıyı giriniz: ");   // İlk sayı, sayi_1 değişkenine atandı.   
             int sayi_1 = Convert.ToInt32(Console.ReadLine());
             
-            Console.WriteLine("Ebob'u bulunacak ikinci sayıyı giriniz: ");
+            Console.WriteLine("Ebob'u bulunacak ikinci sayıyı giriniz: "); // İkinci sayı, sayi_2 değişkenine atandı. 
             int sayi_2 = Convert.ToInt32(Console.ReadLine());
             
             int ebob = 1;
             int bolen = 2;
             while (sayi_1 > 1 || sayi_2 > 1)
             {
+                
                 // Sayiların ikisi de, bölen degiskenine bolundugunde ebob hesabina katılmış olunur.
                 
                 if (sayi_1 % bolen == 0 && sayi_2 % bolen == 0)
@@ -41,8 +42,10 @@ namespace EbobBulma
                     bolen++;
                 }
             }
+            
             Console.WriteLine("Verilen sayıların ebob'u ; {0} ",ebob);
-          // Console.WriteLine("Verilen sayıların ebob'u ; "+ebob); üsttekiyle aynı işlevdedir.
+            // Console.WriteLine("Verilen sayıların ebob'u ; "+ebob); üsttekiyle aynı işlevdedir.
+            
             Console.ReadKey();
         }
     }
