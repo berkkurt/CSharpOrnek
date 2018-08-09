@@ -19,8 +19,10 @@ namespace HipotenusBulma
             Console.Write("İkinci Dik Kenarı Girin....:");
             k2 = Convert.ToDouble(Console.ReadLine());
             
-            //k1 ve k2nin karelerini toplamını yapıp kare kökünü alıyoruz.
+            //k1 ve k2'nin kareleri toplamını yapıp karekökünü alıyoruz.
             hipotenus = Math.Sqrt((k1 * k1) + (k2 * k2));
+            //Karekök alma işlemi Mat.sqrt ile gerçekleştirilir.
+            
            
             Console.WriteLine("Hipotenüs değeri....:{0}", hipotenus);
             Console.ReadKey();
