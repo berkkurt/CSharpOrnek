@@ -20,7 +20,9 @@ namespace HipotenusBulma
             k2 = Convert.ToDouble(Console.ReadLine());
             
             //k1 ve k2'nin kareleri toplamını yapıp karekökünü alıyoruz.
+            
             hipotenus = Math.Sqrt((k1 * k1) + (k2 * k2));
+            
             //Karekök alma işlemi Mat.sqrt ile gerçekleştirilir.
             
            
