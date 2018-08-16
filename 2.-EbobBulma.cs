@@ -18,6 +18,7 @@ namespace EbobBulma
             
             int ebob = 1;
             int bolen = 2;
+            
             while (sayi_1 > 1 || sayi_2 > 1)
             {
                 
