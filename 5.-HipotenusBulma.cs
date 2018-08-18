@@ -28,9 +28,7 @@ namespace HipotenusBulma
            
             Console.WriteLine("Hipotenüs değeri....:{0}", hipotenus);
             Console.ReadKey();
-
-
-
+            
         }
     }
 }
