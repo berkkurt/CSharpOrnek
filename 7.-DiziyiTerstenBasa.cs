@@ -12,11 +12,13 @@ namespace DiziyiTerstenBasa
         {
             string[] strDizi = { "Ali", "Buğra", "Gözde", "Hakan", "Seda" };
             int son = strDizi.Length - 1;
+            
             for (int i = son; i >= 0; --i)
             {
                 Console.WriteLine(strDizi[i]);
             }
-            Console.ReadKey();
+            
+            Console.Readline();
         }
     }
 }
