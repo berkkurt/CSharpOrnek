@@ -11,7 +11,7 @@ namespace BuyukKucukToplama
         static void Main(string[] args)
         {
             int s1, s2, s3, buyuk, kucuk;
-            Console.WriteLine("3 sayı gireceksiniz ve sonra en büyük ile küçük toplamını alacaksınız.\n ");
+            Console.WriteLine("3 sayı gireceksiniz ve sonra e büyüğü,en küçüğü son olarak en büyük ile küçük toplamını alacaksınız.\n ");
 
             Console.Write("Birinci sayıyı girin; ");
             s1 = Convert.ToInt32(Console.ReadLine());
@@ -43,14 +43,7 @@ namespace BuyukKucukToplama
             Console.WriteLine("en büyük ile en küçük toplamı:{0} ", kucuk + buyuk);
             Console.ReadLine();
 
-            /*
            
-             Kullanıcı tarafından girilen üç sayıdan 
-             en büyük ile en küçük sayıyı toplayıp toplam sonucu
-             ekrana yazdıran programı yazınız.
-
-             */
-
         }
     }
 }
