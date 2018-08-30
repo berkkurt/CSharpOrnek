@@ -10,8 +10,8 @@ namespace DiziyiTerstenBasa
     {
         static void Main(string[] args)
         {
-            string[] strDizi = { "Ali", "Buğra", "Gözde", "Hakan", "Seda" };
-            int son = strDizi.Length - 1;
+            string[] strDizi = { "Ali", "Buğra", "Gözde", "Hakan", "Seda" }; // Dizi ve içerisine elemanlar tanımlandı.
+            int son = strDizi.Length - 1; // int son değerine dizinin son karakteri atandı.
             
             for (int i = son; i >= 0; --i)
             {
