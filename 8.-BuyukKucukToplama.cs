@@ -30,6 +30,8 @@ namespace BuyukKucukToplama
             else
                 buyuk = s3;
 
+            
+            
             if (s1 < s2 && s1 < s3)
                 kucuk = s1;
             else if (s2 < s3)
