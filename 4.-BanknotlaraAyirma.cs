@@ -21,9 +21,11 @@ namespace BanknotlaraAyirma
             for (i = 0; i <= 6; i++)
             {
               adet = para / banknot[i];
+                
               if (adet != 0)
                 Console.WriteLine(adet.ToString() + " adet : " + Convert.ToString(banknot[i] + " TL "));
-              para %= banknot[i];
+              
+                para %= banknot[i];
             }
             Console.ReadKey();
         }
