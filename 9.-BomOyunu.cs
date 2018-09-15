@@ -11,9 +11,12 @@ namespace BomOyunu
         static void Main(string[] args)
         {
             Console.Title = "Bom Oyunu";
+            
             int siradaki_sayi = 1;
             string vermesi_gereken_cevap = "";
             string kullanici_cevabi = "";
+            
+            
             for (int i = 1; i < 5; i++)
             {
                 if ((siradaki_sayi) % 5 == 0)
