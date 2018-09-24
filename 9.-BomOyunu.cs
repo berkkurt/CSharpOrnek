@@ -10,7 +10,7 @@ namespace BomOyunu
     {
         static void Main(string[] args)
         {
-            Console.Title = "Bom Oyunu";
+            Console.Title = "Bom Oyunu";   // Başlığımız
             
             int siradaki_sayi = 1;
             string vermesi_gereken_cevap = "";
