@@ -21,7 +21,7 @@ namespace BomOyunu
             {
                 if ((siradaki_sayi) % 5 == 0)
                 {
-                    Console.WriteLine("BOM");
+                    Console.WriteLine("BOM"); // 5'e tam bölünen sayıda BOM yazdıracak.
                 }
                 else
                 {
